@@ -1,0 +1,343 @@
+*{
+  padding: 0;
+  font-family: 'Signika', sans-serif;
+  color: rgb(212, 216, 221);
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img{
+  padding: 10px;
+}
+.top{
+  display: flex;
+}
+#leftpanel{
+  background-color: black;
+  padding: 5px ;
+  max-width: 250px;
+}
+
+.home{
+  display: flex;
+  align-items: center;
+  background-color: rgb(87, 86, 86);
+  border-radius: 10px;
+  height: 40px;
+}
+
+.search{display: flex;
+  align-items: center;}
+.library{display: flex;
+  align-items: center;}
+.playlist{display: flex;
+  align-items: center;}
+.liked{
+      position: relative;
+      display: flex;
+      align-items: center;
+}
+.episodes{
+  display: flex;
+  align-items: center;
+}
+
+.first{
+  padding-bottom: 20px;
+}
+
+.second{
+  padding-bottom: 20px;
+}
+.obj1{
+  position: relative;
+}
+
+.obj2{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.episodes{
+  position: relative;
+}
+
+.img1{
+  position: relative;
+}
+
+.img2{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.third{
+  padding: 5px 15px ;
+  font-family: 'Signika', sans-serif;
+  font-size: 15px;
+}
+
+.thirdpart{
+  padding-bottom: 30px;
+}
+
+.install{
+  display: flex;
+  align-items: center;
+}
+
+.rightpanel{
+  background: linear-gradient(135deg, rgb(69, 68, 68), black);
+  width: 1300px;
+  padding: 40px;
+}
+
+.profile{
+  display: flex;
+  align-items: center;
+  background-color: black;
+  border-radius: 60px;
+  max-height: 35px;
+}
+
+.navi{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 100px;
+}
+
+.likedsongs{
+  background: rgb(81, 79, 79);
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  padding-right: 100px;
+  max-width: 400px;
+  margin-right: 20px;
+}
+
+.i1{
+  position: inherit;
+  padding: 0;
+  border-radius: 5px 0 0 5px;
+}
+
+.i2{
+  position: absolute;
+  left: 25px;
+}
+
+.likedsongs h1, .neffex h1, .kdrama h1, .likedsongs2 h1{
+  padding-left: 20px;
+  font-size: 15px;
+}
+
+.neffex, .kdrama, .likedsongs2{
+  background: rgb(81, 79, 79);
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  padding-right: 100px;
+  margin-right: 30px;
+  max-width: 200px;
+}
+
+.neffex img, .kdrama img, .likedsongs2 img, .marshmallow img{
+  padding: 0;
+  border-radius: 5px 0 0 5px;
+}
+
+.firstlist{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px
+}
+
+.marshmallow{
+  background: rgb(81, 79, 79);
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  padding-right: 100px;
+  margin-right: 30px;
+  max-width: 160px;
+  max-height: 200px;
+}
+.marshmallow h1{
+  padding-left: 20px;
+  font-size: 15px;
+}
+
+.marshmallow1{
+  display: none;
+}
+.secondlist{
+  margin-bottom: 20px;
+}
+
+.heading{
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.seeall{
+  color: rgb(164, 162, 162);
+  font-size: 15px;
+  margin-right: 100px;
+}
+
+.shows{
+  display: flex;
+  justify-content: space-around;
+}
+
+.shows img{
+  height: 150px;
+}
+
+.shows h1{
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.currentsong{
+  display: flex;
+  align-items: center;
+}
+
+.controls{
+  display: none;
+}
+.name h2{
+  font-size: 15px;
+}
+
+.name h3{
+  font-size: smaller;
+  color: rgb(168, 167, 167);
+}
+
+.card{
+  display: none;
+}
+.goof{
+  display: none;
+}
+@media (max-width: 426px) {
+  #leftpanel{
+      width: 125px;
+  }
+  .rightpanel{
+      width: 300px;
+  }
+
+  #logo img{
+      margin-top: 25px;
+      margin-left: 10px;
+      height: 20px;
+  }
+  .home{
+      height: 25px;
+      width: 35px;
+      margin-left: 25px;
+      margin-top: 45px;
+      padding: 5px;
+  }
+  .home span, .search span{
+      display: none ;
+  }
+
+  .search, .library{
+      margin-left: 25px;
+      margin-top: 45px;
+  }   
+
+  .library span{
+      display: none;
+  }
+
+  .second, .thirdpart{
+      display: none;
+  }
+  .install{
+      margin-top: 45px;
+      margin-left: 5px;
+  }
+
+  .currentsong{
+      display: none;
+  }
+
+  .heart{
+      display: none;
+  }
+  .card{
+      display: flex;
+      flex-direction: column;
+      margin-top: 65px;
+      align-items: center;    
+  }
+
+  .currentsong{
+      display: none;
+  }
+  .bottom img{
+     visibility: hidden;
+  }
+
+  .firstlist{
+      display: none;
+  }
+
+  .marshmallow{
+      display: none;
+  }
+
+  .marshmallow1{
+      display:inline;
+  }
+
+  .shows{
+      display: none;
+  }
+  .goof{
+      display: inline;
+  }
+
+  .heading h1{
+      font-size: 19   px;
+  }
+
+  .seeall{
+      visibility: hidden;
+  }
+  .goof img{
+      height: 150px;
+  }
+
+  .install img{
+      height: 35px;
+      width: 35px;
+  }
+
+  .install{
+      display: flex;
+      flex-direction: column;
+  }
+}
